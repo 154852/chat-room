@@ -1,0 +1,84 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#description {
+    float: right;
+}
+
+hr {
+    color: #898989;
+    background-color: #898989;
+    height: 1px;
+    border: 0;
+}
+
+#text-area, #text-area2, #name {
+    font-family: 'Lato', sans-serif; 
+    font-size: 15px;
+    width: 100%;
+    border: solid gray 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#text-area, #text-area2, #name {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+#text-area:focus, #name:focus {
+    border: 1px solid #555;
+}
+
+#your-comments {
+    padding-top: 20px;
+}
+
+#save {
+    margin-top: 20px;
+    float: left;
+    
+    border: white;
+    background-color: white;
+    cursor: pointer;
+    
+    font-size: 20px;
+}
+
+#bin {
+    float: right;
+    cursor: pointer;
+}
+
+#past h3 {
+    font-size: 20px;
+    border-left: solid gray 1px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+#past h2 {
+    font-size: 25px;
+}
+
+#history-label {
+    font-size: 27px;
+    text-align: center;
+}
+
+strong {
+    font-size: 25px;
+}
